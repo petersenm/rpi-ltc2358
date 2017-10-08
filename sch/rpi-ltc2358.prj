@@ -1,0 +1,4 @@
+schematics rpi-ltc2358.sch adc.sch power.sch
+output-name ../pcb/rpi-ltc2358
+skip-m4
+elements-dir ../../../footprints

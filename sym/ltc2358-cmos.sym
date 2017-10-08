@@ -1,0 +1,542 @@
+v 20130925 2
+B 300 300 6000 6000 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 6100 6350 5 10 1 1 0 0 1
+refdes=U?
+T 3300 3500 5 10 1 1 0 4 1
+device=LTC2358
+T 2800 1500 5 10 0 1 0 4 1
+footprint=LTC_LX48
+T 300 7200 5 10 0 0 0 0 1
+author=Michael Petersen
+T 400 7800 5 10 0 0 0 0 1
+dist-license=GPL
+T 400 8000 5 10 0 0 0 0 1
+use-license=unlimited
+P 0 700 300 700 1 0 0
+{
+T 200 650 5 8 0 1 0 8 1
+pinseq=14
+T 350 700 5 8 0 1 0 2 1
+pintype=io
+T 200 750 5 8 1 1 0 6 1
+pinnumber=47
+T 350 700 9 8 1 1 0 1 1
+pinlabel=IN7-
+}
+P 6600 2500 6300 2500 1 0 0
+{
+T 6400 2450 5 8 0 1 0 2 1
+pinseq=20
+T 6250 2500 5 8 0 1 0 8 1
+pintype=pwr
+T 6400 2550 5 8 1 1 0 0 1
+pinnumber=32
+T 6250 2500 9 8 1 1 0 7 1
+pinlabel=SCKO
+}
+P 6600 1600 6300 1600 1 0 0
+{
+T 6400 1550 5 8 0 1 0 2 1
+pinseq=14
+T 6250 1600 5 8 0 1 0 8 1
+pintype=io
+T 6395 1645 5 8 1 1 0 0 1
+pinnumber=39
+T 6245 1595 9 8 1 1 0 7 1
+pinlabel=\_CS\_
+}
+P 6600 1900 6300 1900 1 0 0
+{
+T 6400 1850 5 8 0 1 0 2 1
+pinseq=14
+T 6250 1900 5 8 0 1 0 8 1
+pintype=io
+T 6395 1945 5 8 1 1 0 0 1
+pinnumber=37
+T 6245 1895 9 8 1 1 0 7 1
+pinlabel=SDI
+}
+P 700 6600 700 6300 1 0 0
+{
+T 700 6600 5 10 0 0 0 0 1
+pintype=unknown
+T 695 6250 9 8 1 1 0 5 1
+pinlabel=VCC
+T 750 6400 5 8 1 1 0 0 1
+pinnumber=16
+T 700 6600 5 10 0 0 0 0 1
+pinseq=0
+}
+P 700 0 700 300 1 0 0
+{
+T 750 200 5 8 1 1 0 2 1
+pinnumber=17
+T 750 100 5 8 0 1 0 2 1
+pinseq=5
+T 700 350 9 8 1 1 0 3 1
+pinlabel=VEE
+T 700 500 5 8 0 1 0 3 1
+pintype=pwr
+}
+P 2000 0 2000 300 1 0 0
+{
+T 2050 200 5 8 1 1 0 2 1
+pinnumber=21
+T 2050 100 5 8 0 1 0 2 1
+pinseq=5
+T 2000 350 9 8 1 1 0 3 1
+pinlabel=REFBUF
+T 2000 500 5 8 0 1 0 3 1
+pintype=pwr
+}
+P 2800 0 2800 300 1 0 0
+{
+T 2850 200 5 8 1 1 0 2 1
+pinnumber=19
+T 2850 100 5 8 0 1 0 2 1
+pinseq=5
+T 2800 350 9 8 1 1 0 3 1
+pinlabel=REFIN
+T 2800 500 5 8 0 1 0 3 1
+pintype=pwr
+}
+P 0 1000 300 1000 1 0 0
+{
+T 200 950 5 8 0 1 0 8 1
+pinseq=14
+T 350 1000 5 8 0 1 0 2 1
+pintype=io
+T 200 1050 5 8 1 1 0 6 1
+pinnumber=48
+T 350 1000 9 8 1 1 0 1 1
+pinlabel=IN7+
+}
+P 6600 4900 6300 4900 1 0 0
+{
+T 6400 4850 5 8 0 1 0 2 1
+pinseq=20
+T 6250 4900 5 8 0 1 0 8 1
+pintype=pwr
+T 6400 4950 5 8 1 1 0 0 1
+pinnumber=25
+T 6250 4900 9 8 1 1 0 7 1
+pinlabel=SDO0
+}
+P 6600 5800 6300 5800 1 0 0
+{
+T 6400 5750 5 8 0 1 0 2 1
+pinseq=20
+T 6250 5800 5 8 0 1 0 8 1
+pintype=pwr
+T 6400 5850 5 8 1 1 0 0 1
+pinnumber=23
+T 6250 5800 9 8 1 1 0 7 1
+pinlabel=LVDS/\_CMOS\_
+}
+P 2000 6600 2000 6300 1 0 0
+{
+T 2000 6600 5 10 0 0 0 0 1
+pintype=unknown
+T 1995 6250 9 8 1 1 0 5 1
+pinlabel=VDD
+T 2050 6400 5 8 1 1 0 0 1
+pinnumber=43
+T 2000 6600 5 10 0 0 0 0 1
+pinseq=0
+}
+P 3800 6600 3800 6300 1 0 0
+{
+T 3800 6600 5 10 0 0 0 0 1
+pintype=unknown
+T 3800 6600 5 10 0 0 0 0 1
+pinseq=0
+T 3795 6250 9 8 1 1 0 5 1
+pinlabel=VDDLBYP
+T 3850 6400 5 8 1 1 0 0 1
+pinnumber=40
+}
+P 5200 6600 5200 6300 1 0 0
+{
+T 5200 6600 5 10 0 0 0 0 1
+pintype=unknown
+T 5200 6600 5 10 0 0 0 0 1
+pinseq=0
+T 5195 6250 9 8 1 1 0 5 1
+pinlabel=OVDD
+T 5250 6400 5 8 1 1 0 0 1
+pinnumber=31
+}
+P 6600 5500 6300 5500 1 0 0
+{
+T 6400 5450 5 8 0 1 0 2 1
+pinseq=20
+T 6250 5500 5 8 0 1 0 8 1
+pintype=pwr
+T 6400 5550 5 8 1 1 0 0 1
+pinnumber=22
+T 6250 5500 9 8 1 1 0 7 1
+pinlabel=PD
+}
+P 6600 2200 6300 2200 1 0 0
+{
+T 6400 2150 5 8 0 1 0 2 1
+pinseq=20
+T 6250 2200 5 8 0 1 0 8 1
+pintype=pwr
+T 6400 2250 5 8 1 1 0 0 1
+pinnumber=29
+T 6250 2200 9 8 1 1 0 7 1
+pinlabel=SCKI
+}
+P 6600 1000 6300 1000 1 0 0
+{
+T 6400 950 5 8 0 1 0 2 1
+pinseq=14
+T 6250 1000 5 8 0 1 0 8 1
+pintype=io
+T 6395 1045 5 8 1 1 0 0 1
+pinnumber=38
+T 6245 995 9 8 1 1 0 7 1
+pinlabel=BUSY
+}
+P 6600 700 6300 700 1 0 0
+{
+T 6400 650 5 8 0 1 0 2 1
+pinseq=14
+T 6250 700 5 8 0 1 0 8 1
+pintype=io
+T 6395 745 5 8 1 1 0 0 1
+pinnumber=24
+T 6245 695 9 8 1 1 0 7 1
+pinlabel=CNV
+}
+P 0 1400 300 1400 1 0 0
+{
+T 200 1350 5 8 0 1 0 8 1
+pinseq=14
+T 350 1400 5 8 0 1 0 2 1
+pintype=io
+T 200 1450 5 8 1 1 0 6 1
+pinnumber=1
+T 350 1400 9 8 1 1 0 1 1
+pinlabel=IN6-
+}
+P 0 1700 300 1700 1 0 0
+{
+T 200 1650 5 8 0 1 0 8 1
+pinseq=14
+T 350 1700 5 8 0 1 0 2 1
+pintype=io
+T 200 1750 5 8 1 1 0 6 1
+pinnumber=2
+T 350 1700 9 8 1 1 0 1 1
+pinlabel=IN6+
+}
+P 0 2100 300 2100 1 0 0
+{
+T 200 2050 5 8 0 1 0 8 1
+pinseq=14
+T 350 2100 5 8 0 1 0 2 1
+pintype=io
+T 200 2150 5 8 1 1 0 6 1
+pinnumber=3
+T 350 2100 9 8 1 1 0 1 1
+pinlabel=IN5-
+}
+P 0 2400 300 2400 1 0 0
+{
+T 200 2350 5 8 0 1 0 8 1
+pinseq=14
+T 350 2400 5 8 0 1 0 2 1
+pintype=io
+T 200 2450 5 8 1 1 0 6 1
+pinnumber=4
+T 350 2400 9 8 1 1 0 1 1
+pinlabel=IN5+
+}
+P 0 2800 300 2800 1 0 0
+{
+T 200 2750 5 8 0 1 0 8 1
+pinseq=14
+T 350 2800 5 8 0 1 0 2 1
+pintype=io
+T 200 2850 5 8 1 1 0 6 1
+pinnumber=5
+T 350 2800 9 8 1 1 0 1 1
+pinlabel=IN4-
+}
+P 0 3100 300 3100 1 0 0
+{
+T 200 3050 5 8 0 1 0 8 1
+pinseq=14
+T 350 3100 5 8 0 1 0 2 1
+pintype=io
+T 200 3150 5 8 1 1 0 6 1
+pinnumber=6
+T 350 3100 9 8 1 1 0 1 1
+pinlabel=IN4+
+}
+P 0 3500 300 3500 1 0 0
+{
+T 200 3450 5 8 0 1 0 8 1
+pinseq=14
+T 350 3500 5 8 0 1 0 2 1
+pintype=io
+T 200 3550 5 8 1 1 0 6 1
+pinnumber=7
+T 350 3500 9 8 1 1 0 1 1
+pinlabel=IN3-
+}
+P 0 3800 300 3800 1 0 0
+{
+T 200 3750 5 8 0 1 0 8 1
+pinseq=14
+T 350 3800 5 8 0 1 0 2 1
+pintype=io
+T 200 3850 5 8 1 1 0 6 1
+pinnumber=8
+T 350 3800 9 8 1 1 0 1 1
+pinlabel=IN3+
+}
+P 0 4200 300 4200 1 0 0
+{
+T 200 4150 5 8 0 1 0 8 1
+pinseq=14
+T 350 4200 5 8 0 1 0 2 1
+pintype=io
+T 200 4250 5 8 1 1 0 6 1
+pinnumber=9
+T 350 4200 9 8 1 1 0 1 1
+pinlabel=IN2-
+}
+P 0 4500 300 4500 1 0 0
+{
+T 200 4450 5 8 0 1 0 8 1
+pinseq=14
+T 350 4500 5 8 0 1 0 2 1
+pintype=io
+T 200 4550 5 8 1 1 0 6 1
+pinnumber=10
+T 350 4500 9 8 1 1 0 1 1
+pinlabel=IN2+
+}
+P 0 4900 300 4900 1 0 0
+{
+T 200 4850 5 8 0 1 0 8 1
+pinseq=14
+T 350 4900 5 8 0 1 0 2 1
+pintype=io
+T 200 4950 5 8 1 1 0 6 1
+pinnumber=11
+T 350 4900 9 8 1 1 0 1 1
+pinlabel=IN1-
+}
+P 0 5200 300 5200 1 0 0
+{
+T 200 5150 5 8 0 1 0 8 1
+pinseq=14
+T 350 5200 5 8 0 1 0 2 1
+pintype=io
+T 200 5250 5 8 1 1 0 6 1
+pinnumber=12
+T 350 5200 9 8 1 1 0 1 1
+pinlabel=IN1+
+}
+P 0 5600 300 5600 1 0 0
+{
+T 200 5550 5 8 0 1 0 8 1
+pinseq=14
+T 350 5600 5 8 0 1 0 2 1
+pintype=io
+T 200 5650 5 8 1 1 0 6 1
+pinnumber=13
+T 350 5600 9 8 1 1 0 1 1
+pinlabel=IN0-
+}
+P 0 5900 300 5900 1 0 0
+{
+T 200 5850 5 8 0 1 0 8 1
+pinseq=14
+T 350 5900 5 8 0 1 0 2 1
+pintype=io
+T 200 5950 5 8 1 1 0 6 1
+pinnumber=14
+T 350 5900 9 8 1 1 0 1 1
+pinlabel=IN0+
+}
+P 4800 0 4800 300 1 0 0
+{
+T 4850 100 5 8 0 1 0 2 1
+pinseq=5
+T 4800 500 5 8 0 1 0 3 1
+pintype=pwr
+T 4850 200 5 8 1 1 0 2 1
+pinnumber=30
+T 4800 350 9 8 1 1 0 3 1
+pinlabel=GND
+}
+P 5400 0 5400 300 1 0 0
+{
+T 5450 100 5 8 0 1 0 2 1
+pinseq=5
+T 5400 500 5 8 0 1 0 3 1
+pintype=pwr
+T 5450 200 5 8 1 1 0 2 1
+pinnumber=41
+T 5400 350 9 8 0 1 0 3 1
+pinlabel=GND
+}
+P 5700 0 5700 300 1 0 0
+{
+T 5750 100 5 8 0 1 0 2 1
+pinseq=5
+T 5700 500 5 8 0 1 0 3 1
+pintype=pwr
+T 5750 200 5 8 1 1 0 2 1
+pinnumber=44
+T 5700 350 9 8 0 1 0 3 1
+pinlabel=GND
+}
+P 6000 0 6000 300 1 0 0
+{
+T 6050 100 5 8 0 1 0 2 1
+pinseq=5
+T 6000 500 5 8 0 1 0 3 1
+pintype=pwr
+T 6050 200 5 8 1 1 0 2 1
+pinnumber=46
+T 6000 350 9 8 0 1 0 3 1
+pinlabel=GND
+}
+P 3600 0 3600 300 1 0 0
+{
+T 3650 100 5 8 0 1 0 2 1
+pinseq=5
+T 3600 500 5 8 0 1 0 3 1
+pintype=pwr
+T 3600 350 9 8 0 1 0 3 1
+pinlabel=GND
+T 3650 200 5 8 1 1 0 2 1
+pinnumber=15
+}
+P 3900 0 3900 300 1 0 0
+{
+T 3950 100 5 8 0 1 0 2 1
+pinseq=5
+T 3900 500 5 8 0 1 0 3 1
+pintype=pwr
+T 3900 350 9 8 0 1 0 3 1
+pinlabel=GND
+T 3950 200 5 8 1 1 0 2 1
+pinnumber=18
+}
+P 4200 0 4200 300 1 0 0
+{
+T 4250 100 5 8 0 1 0 2 1
+pinseq=5
+T 4200 500 5 8 0 1 0 3 1
+pintype=pwr
+T 4200 350 9 8 0 1 0 3 1
+pinlabel=GND
+T 4250 200 5 8 1 1 0 2 1
+pinnumber=20
+}
+P 2500 6600 2500 6300 1 0 0
+{
+T 2500 6600 5 10 0 0 0 0 1
+pintype=unknown
+T 2495 6250 9 8 1 1 0 5 1
+pinlabel=VDD
+T 2550 6400 5 8 1 1 0 0 1
+pinnumber=42
+T 2500 6600 5 10 0 0 0 0 1
+pinseq=0
+}
+P 1200 0 1200 300 1 0 0
+{
+T 1250 200 5 8 1 1 0 2 1
+pinnumber=45
+T 1250 100 5 8 0 1 0 2 1
+pinseq=5
+T 1200 350 9 8 1 1 0 3 1
+pinlabel=VEE
+T 1200 500 5 8 0 1 0 3 1
+pintype=pwr
+}
+P 6600 4600 6300 4600 1 0 0
+{
+T 6400 4550 5 8 0 1 0 2 1
+pinseq=20
+T 6250 4600 5 8 0 1 0 8 1
+pintype=pwr
+T 6400 4650 5 8 1 1 0 0 1
+pinnumber=26
+T 6250 4600 9 8 1 1 0 7 1
+pinlabel=SDO1
+}
+P 6600 4300 6300 4300 1 0 0
+{
+T 6400 4250 5 8 0 1 0 2 1
+pinseq=20
+T 6250 4300 5 8 0 1 0 8 1
+pintype=pwr
+T 6400 4350 5 8 1 1 0 0 1
+pinnumber=27
+T 6250 4300 9 8 1 1 0 7 1
+pinlabel=SDO2
+}
+P 6600 4000 6300 4000 1 0 0
+{
+T 6400 3950 5 8 0 1 0 2 1
+pinseq=20
+T 6250 4000 5 8 0 1 0 8 1
+pintype=pwr
+T 6400 4050 5 8 1 1 0 0 1
+pinnumber=28
+T 6250 4000 9 8 1 1 0 7 1
+pinlabel=SDO3
+}
+P 6600 3700 6300 3700 1 0 0
+{
+T 6400 3650 5 8 0 1 0 2 1
+pinseq=20
+T 6250 3700 5 8 0 1 0 8 1
+pintype=pwr
+T 6400 3750 5 8 1 1 0 0 1
+pinnumber=33
+T 6250 3700 9 8 1 1 0 7 1
+pinlabel=SDO4
+}
+P 6600 3400 6300 3400 1 0 0
+{
+T 6400 3350 5 8 0 1 0 2 1
+pinseq=20
+T 6250 3400 5 8 0 1 0 8 1
+pintype=pwr
+T 6400 3450 5 8 1 1 0 0 1
+pinnumber=34
+T 6250 3400 9 8 1 1 0 7 1
+pinlabel=SDO5
+}
+P 6600 3100 6300 3100 1 0 0
+{
+T 6400 3050 5 8 0 1 0 2 1
+pinseq=20
+T 6250 3100 5 8 0 1 0 8 1
+pintype=pwr
+T 6400 3150 5 8 1 1 0 0 1
+pinnumber=35
+T 6250 3100 9 8 1 1 0 7 1
+pinlabel=SDO6
+}
+P 6600 2800 6300 2800 1 0 0
+{
+T 6400 2750 5 8 0 1 0 2 1
+pinseq=20
+T 6250 2800 5 8 0 1 0 8 1
+pintype=pwr
+T 6400 2850 5 8 1 1 0 0 1
+pinnumber=36
+T 6250 2800 9 8 1 1 0 7 1
+pinlabel=SDO7
+}
